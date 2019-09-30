@@ -7,17 +7,17 @@ import javax.validation.constraints.NotBlank;
  */
 public class LoginRequest {
     @NotBlank
-    private String usernameOrEmail;
+    private String username;
 
     @NotBlank
     private String password;
 
     public String getUsernameOrEmail() {
-        return usernameOrEmail;
+        return username;
     }
 
     public void setUsernameOrEmail(String usernameOrEmail) {
-        this.usernameOrEmail = usernameOrEmail;
+        this.username = usernameOrEmail;
     }
 
     public String getPassword() {
